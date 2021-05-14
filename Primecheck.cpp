@@ -1,34 +1,3 @@
-//to find wheather a number is prime or not
-#include<bits/stdc++.h>
-using namespace std;
-int main()
-{
-	int n,fc=0,i;
-	cout<<"Enter a number"<<endl;
-	cin>>n;
-	for(i=2;i<=n;i++)
-    {
-		if(n%i==0)
-		{
-			fc=1;
-			break;
-		}
-    }
-if(fc!=2)
-{
-  	cout<<"-1";
-}
-else if(n==1)
-{
-	cout<<"-1";
-}
-else
-{
-	cout<<"1";
-}
-return 0;
-}
-
 // To print the series of all prime numbers till N.
 #include<bits/stdc++.h>
 using namespace std;
